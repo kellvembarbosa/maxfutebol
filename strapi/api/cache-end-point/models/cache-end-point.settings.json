@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cache_end_points",
+  "info": {
+    "name": "CacheEndPoint",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EndPointAPI": {
+      "type": "string",
+      "unique": true
+    },
+    "ResponseJSON": {
+      "type": "json"
+    },
+    "cacheUpdateDia": {
+      "type": "integer",
+      "private": true,
+      "default": 2
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cache-end-points",
+      "handler": "cache-end-point.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cache-end-points/count",
+      "handler": "cache-end-point.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cache-end-points/:id",
+      "handler": "cache-end-point.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cache-end-points",
+      "handler": "cache-end-point.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cache-end-points/:id",
+      "handler": "cache-end-point.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cache-end-points/:id",
+      "handler": "cache-end-point.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

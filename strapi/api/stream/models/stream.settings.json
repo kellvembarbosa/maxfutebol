@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "streams",
+  "info": {
+    "name": "Stream",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "streamCanal": {
+      "type": "string"
+    },
+    "streamContent": {
+      "type": "richtext"
+    },
+    "streamVariavel": {
+      "type": "boolean"
+    },
+    "steramCanalAtivo": {
+      "type": "boolean"
+    },
+    "streamReplaceFind": {
+      "type": "string"
+    },
+    "streamRapleceString": {
+      "type": "string"
+    },
+    "streamUpdate": {
+      "type": "integer"
+    },
+    "streamFormat": {
+      "type": "string"
+    },
+    "Headers": {
+      "type": "json"
+    },
+    "streamUrl": {
+      "type": "string"
+    },
+    "streamSubReplaceFind": {
+      "type": "string"
+    },
+    "streamPathServer": {
+      "type": "string"
+    },
+    "HeaderSub": {
+      "type": "json"
+    },
+    "streamContentType": {
+      "type": "string"
+    }
+  }
+}
